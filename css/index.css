@@ -45,6 +45,13 @@ body {
     width: 90px;
     height: 44px;
     border-radius: 8px;
+    font-family: 400;
+    font-size: 16px;
+}
+
+.register-button{
+    font-family: 500;
+    font-size: 16px;
 }
 
 
