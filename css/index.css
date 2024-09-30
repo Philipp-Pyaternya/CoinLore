@@ -23,6 +23,7 @@ body {
     justify-content: space-between;
     margin-top: 7rem;
     overflow: hidden;
+    margin-left: 100px;
 }
 
 .intro-text-component{
@@ -55,4 +56,16 @@ body {
     margin-top: 2rem;
     position: absolute;
     margin-left: -14rem;
+}
+
+.second-component{
+
+}
+
+.second-component-title{
+
+}
+
+.second-component-paragraph{
+
 }
