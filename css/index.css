@@ -5,9 +5,12 @@ body {
 
 
 @media (max-width: 1400px) {
-    .big-image{
-        display: none;
+
+    .intro-container{
+        margin-left: 5rem !important;
     }
+
+
     
     .phone-image{
         display: none;
@@ -94,6 +97,14 @@ body {
         grid-template-rows: 1fr !important;
         padding: 0 20px 0 20px !important;
     }
+
+    .big-image{
+        display: none;
+    }
+}
+
+.intro-container{
+
 }
 
 
