@@ -58,9 +58,8 @@ body {
     }
 
     .card{
-        width: 100% !important;
+        width: auto !important;
         display: block !important;
-
     }
 
     .third-component-right-wrapper{
@@ -69,8 +68,8 @@ body {
     }
 
     .third-component-image{
-        max-width: auto !important;
-        object-fit: contain;
+        width: auto !important;
+        object-fit: contain !important;
     }
 
     .list-item{
