@@ -3,6 +3,98 @@ body {
     background: #F8F9FA;
 }
 
+
+@media (max-width: 1400px) {
+    .big-image{
+        display: none;
+    }
+    
+    .phone-image{
+        display: none;
+    }
+
+    .intro-component{
+        display: flex; 
+        justify-content: start;
+        margin-left: 0px !important;
+    }
+
+    .card-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .third-component-title{  
+        font-size: 40px !important;
+        line-height:normal !important;
+    }
+
+    .title{
+        font-size: 40px !important;
+        line-height:normal !important;
+    }
+
+    .paragraph{
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+
+    .second-component-title{    
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .second-component-paragraph{
+        font-size: 40px !important;
+        line-height: 40px !important;
+    }
+
+    .card-wrapper{
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        grid-template-rows: 1fr !important;
+        padding: 0 10px 0 10px !important;
+    }
+
+    .card{
+        width: 100% !important;
+        display: block !important;
+
+    }
+
+    .third-component-right-wrapper{
+        padding: 0 10px 0 10px !important;
+        margin: 0px !important;
+    }
+
+    .third-component-image{
+        max-width: auto !important;
+        object-fit: contain;
+    }
+
+    .list-item{
+        width: auto !important;
+    }
+
+    .third-component-wrapper{
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        /* justify-content: center !important; */
+    }
+
+    .third-component-right-wrapper{
+        align-items: center !important;
+    }
+
+    .third-component-list-title{
+        margin-top: 3rem !important;
+    }
+
+}
+
+
 .title{
     color:#3B5998;
     font-weight: 600;
@@ -101,13 +193,6 @@ body {
     padding: 0 100px 0 100px;
 }
 
-@media (max-width: 1250px) {
-    .card-wrapper{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-    }
-}
-
 .card{
     padding: 2rem;
     width: auto;
@@ -173,8 +258,6 @@ body {
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
-    
-
 }
 
 .third-component-list-title{
