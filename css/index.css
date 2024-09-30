@@ -1,0 +1,58 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: #F8F9FA;
+}
+
+.title{
+    color:#3B5998;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72.61px;
+}
+
+.paragraph{
+    color:#475569;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 1.5rem;
+}
+
+.intro-component{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7rem;
+    overflow: hidden;
+}
+
+.intro-text-component{
+    width: 36rem;
+    margin-top: 1.5rem;
+}
+
+.intro-images-component{
+    position: relative;
+    display: flex;
+}
+
+.login-button{
+    background: #3B5998!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.5rem;
+}
+
+
+.big-image{
+    height: 38rem;
+    object-fit: contain;
+}
+
+.phone-image{
+    height: 35rem;
+    object-fit: contain;
+    margin-top: 2rem;
+    position: absolute;
+    margin-left: -14rem;
+}
