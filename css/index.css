@@ -68,7 +68,7 @@ body {
     }
 
     .third-component-image{
-        width: auto !important;
+        width: calc(100vw - 40px) !important;
         object-fit: contain !important;
     }
 
