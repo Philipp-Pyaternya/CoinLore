@@ -9,8 +9,6 @@ body {
     .intro-container{
         margin-left: 5rem !important;
     }
-
-
     
     .phone-image{
         display: none;
@@ -100,6 +98,10 @@ body {
 
     .big-image{
         display: none;
+    }
+
+    .intro-container{
+        margin: 0px !important;
     }
 }
 
